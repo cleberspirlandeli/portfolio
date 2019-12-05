@@ -897,3 +897,28 @@ nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.nav > li > a:f
 .next-course {
     visibility: hidden;
 }
+
+nav.navbar.bootsnav .navbar-toggle {
+    border: 1px solid #0000e4;
+}
+
+.fa {
+    font-size: 30px;
+}
+
+.about-list-icon ul li a {
+    margin-left: 30px;
+    width: 43px;
+    height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        border: 1px solid #0000e4;
+    }
+
+    nav.navbar.bootsnav .navbar-toggle i {
+        color: #0000e4;
+    }
+}
+
