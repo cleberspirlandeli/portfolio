@@ -912,6 +912,10 @@ nav.navbar.bootsnav .navbar-toggle {
     height: 40px;
 }
 
+.p-education {
+    margin-left: 15%;
+}
+
 @media screen and (max-width: 992px) {
     nav.navbar.bootsnav .navbar-toggle {
         border: 1px solid #0000e4;
@@ -920,5 +924,13 @@ nav.navbar.bootsnav .navbar-toggle {
     nav.navbar.bootsnav .navbar-toggle i {
         color: #0000e4;
     }
+	
+    .p-education {
+        margin-left: 0px;
+    }
+
+    .timeline-horizontal-border {
+        padding: 26px 0 30px;
+    }	
 }
 
